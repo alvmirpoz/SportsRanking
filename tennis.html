@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tennis</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/flags.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script type="module" src="tennis.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a id="Liga" class="nav-link" href="football.html?tournament=36">La Liga <i class="fas fa-futbol"></i><i class="flag flag-es"></i></a>
+            </li>
+            <li class="nav-item">
+                <a id="Premier" class="nav-link" href="football.html?tournament=1">Premier League <i class="fas fa-futbol"></i><i class="flag flag-gb"></i></a>
+            </li>
+            <li class="nav-item">
+                <a id="Ekstraklasa" class="nav-link" href="football.html?tournament=64">Ekstraklasa <i class="fas fa-futbol"></i><i class="flag flag-pl"></i></a>
+            </li>
+            <!-- Tennis ball icon is not free in Awesome Fonts, so I used the baseball one which is very similar -->
+            <li class="nav-item">
+                <a id="ATP" class="nav-link" href="tennis.html?tournament=atp">ATP <i class="fas fa-baseball-ball"></i><i class="fa-solid fa-mars"></i></a>
+            </li>
+            <li class="nav-item">
+                <a id="WTA" class="nav-link" href="tennis.html?tournament=wta">WTA <i class="fas fa-baseball-ball"></i><i class="fa-solid fa-venus"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1></h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Rank.</th>
+                    <th>Country</th>
+                    <th class="w-100">Name</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
